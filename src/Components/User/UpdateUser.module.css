@@ -1,0 +1,55 @@
+.container {
+    background-color: #cf6262;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.card {
+    padding: 20px;
+    border-radius: 8px;
+    background-color: rgb(175, 218, 231);
+    box-shadow: 0 2px 4px rgba(167, 82, 82, 0.1);
+}
+
+.title {
+    color: rgb(6, 90, 51);
+    margin-bottom: 20px;
+}
+
+.formControl {
+    margin-bottom: 20px;
+}
+
+.inputField {
+    border-radius: 8px;
+    padding: 10px;
+    width: 100%;
+    transition: border-color 0.3s;
+}
+
+.inputField:focus {
+    border-color: #b6d176;
+    outline: none;
+}
+
+.button {
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #115293;
+}
+
+.snackbar {
+    border-radius: 8px;
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+}

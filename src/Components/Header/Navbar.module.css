@@ -1,0 +1,28 @@
+.drawerHeader {
+  display: flex;
+  align-items: center;
+  padding: 0 8px;
+  justify-content: flex-end;
+  min-height: 64px; /* Match the AppBar height */
+}
+
+.appBar {
+  transition: margin 0.2s ease-in-out, width 0.2s ease-in-out;
+  z-index: 1201 !important; /* Ensure AppBar stays above drawer */
+}
+
+.main {
+  flex-grow: 1;
+  padding: 24px;
+  transition: margin 0.2s ease-in-out;
+  margin-left: 0;
+}
+
+.mainShift {
+  margin-left: 200px; /* drawerWidth */
+  width: calc(100% - 200px);
+}
+
+.contentContainer {
+  padding-top: 64px; /* Match AppBar height */
+}

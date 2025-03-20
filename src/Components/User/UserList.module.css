@@ -1,0 +1,32 @@
+.card {
+    align-items: center;
+  }
+  .title {
+    width: 75%;
+    text-align: left;
+  }
+  .buttonContainer {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 16px;
+  }
+  .tableHeader {
+    width: 40%;
+    text-align: center;
+  }
+  .card {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  .buttonContainer {
+    margin-bottom: 20px;
+  }
+  .tableCell {
+    text-align: center;
+  }
+  .speace {
+    text-align: left;
+    width: 50%;
+    flex: 1;
+  }
